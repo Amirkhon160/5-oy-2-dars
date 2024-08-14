@@ -4,6 +4,12 @@ let parolInput = prompt('Parol kiriting');
 
 let users = [
     {
+        name: "Akmaljon",
+        login: 'qwerty',
+        parol: 78908
+    },
+   
+    {
         name: "Amirxon",
         login: 'amirxon0106',
         parol: 1703465
@@ -13,18 +19,13 @@ let users = [
         login: 'user12',
         parol: 1814734
     },
-    {
-        name: "Akmaljon",
-        login: '34568',
-        parol: 78908
-    }
 ];
 
 let userObject = {};
 
 for (let i = 0; i < users.length; i++) {
     let user = users[i];
-    
+
     if (user.name === nameInput && user.login === loginInput && user.parol == parolInput) {
         userObject = {
             name: nameInput,
@@ -32,11 +33,11 @@ for (let i = 0; i < users.length; i++) {
             password: parolInput
         };
         alert(`Xush kelibsan`)
-        break;  
+        break;
     }
-    else{
-        alert('Kimsan ozi?')
-    }
+    // else {
+    //     alert('Kimsan ozi?')
+    // }
 }
 
 console.log(userObject);
