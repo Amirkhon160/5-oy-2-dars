@@ -14,9 +14,9 @@ let users = [
         parol: 1814734
     },
     {
-        name: "Salohiddin",
-        login: 'saloh9090',
-        parol: 1601928
+        name: "Akmaljon",
+        login: '34568',
+        parol: 78908
     }
 ];
 
